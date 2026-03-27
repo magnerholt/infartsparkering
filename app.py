@@ -101,9 +101,9 @@ with st.expander("⚙️ Inställningar", expanded=not reg_val):
     
     # Placeholder som visar det fasta formatet för SL-kort
     card_in = st.text_input(
-        "SL-kortsnummer (NU-nummer)", 
+        "SL-kortsnummer (19 siffror)", 
         value=card_val, 
-        placeholder="9752 3124 xxxx xxxx xxx"
+        placeholder="(9752 3124) xxx xxxx xxxx"
     )
     
     stat_in = st.selectbox("Din standardparkering", options=names, index=idx)
